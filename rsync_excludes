@@ -1,0 +1,15 @@
+app-leechcraft/
+app-mobilephone/
+dev-java/
+dev-games/
+dev-tex/
+dev-texlive/
+games-*/
+kde-*/
+lxde-*/
+lxqt-*/
+sci-*/
+xfce-*/
+mate-*/
+rox-*
+razorqt-*/
