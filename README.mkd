@@ -1,0 +1,4 @@
+Gentoo Configuration Files
+==========================
+
+I love Gentoo Linux.
