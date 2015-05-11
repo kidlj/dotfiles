@@ -100,7 +100,7 @@ NextPageKey== . DOWN
 # Show Input Method Hint After Input method changed
 # Available Value:
 # True False
-#ShowInputWindowAfterTriggering=True
+ShowInputWindowAfterTriggering=False
 # Show Input Method Hint After Input method changed and Focus in
 # Available Value:
 # True False
