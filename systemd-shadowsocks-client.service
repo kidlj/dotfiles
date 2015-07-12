@@ -1,0 +1,8 @@
+[Unit]
+Description=Shadowsocks client
+
+[Service]
+ExecStart=/usr/bin/sslocal -c /home/mellon/shadowsocks.json
+
+[Install]
+WantedBy=multi-user.target
