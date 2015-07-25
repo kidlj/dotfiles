@@ -1,4 +1,5 @@
 " Pathogen
+" https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
 " global settings
@@ -20,12 +21,13 @@ autocmd Filetype python setlocal et sta sw=4 sts=4 textwidth=79
 autocmd Filetype html set sw=2 ts=2
 
 " indentLine plugin
+" git@github.com:Yggdroot/indentLine.git
 let g:indentLine_char = "┆"
 let g:indentLine_color_term = 0
 let g:indentLine_showFirstIndentLevel = 1
 
 " NERDTree
-"
+" git@github.com:scrooloose/nerdtree.git
 " open a NERDTree automatically when vim starts up if no files were specified
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -35,6 +37,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 
 " Rainbow parentheses
+" git@github.com:kien/rainbow_parentheses.vim.git
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
